@@ -1,0 +1,17 @@
+{
+        "bigEndian": true,
+	"length": 18,
+	"fields": [
+		{"name": "CMD", "start": 0, "type": "uint16"},
+		{"name": "SEQ", "start": 2, "type": "uint16"},
+		{"name": "ACK", "start": 4, "type": "uint16"},
+		{"name": "STA", "start": 6, "type": "uint16"},
+                {"name": "TestByte", "start": 8, "type": "uint8"},
+		{"name": "DataType", "start": 9, "type": "uint8"},
+		{"name": "Count", "start": 10, "type": "uint16"},
+		{"name": "DB_Num", "start": 12, "type": "uint16"},
+		{"name": "Addr_Type", "start": 14, "type": "uint8"},
+		{"name": "Address", "start": 15, "type": "uint16"},
+                {"name": "Spare", "start": 17, "type": "uint8"}
+	]
+}
